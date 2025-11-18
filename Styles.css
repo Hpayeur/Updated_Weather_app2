@@ -264,13 +264,13 @@ column-gap: 30px
 }
 .Four{
   background-color: #795656;
-  padding: 40px 40px;
+  padding: 20px 20px;
  position: inline-block;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-top: 120px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+grid-gap: 1em;
+grid-auto-flow: dense;
+margin-top: 120px
 
 }
 
@@ -338,10 +338,12 @@ position: relative;
 .Five{
   background-color: #795656;
  position: inline-block;
-  display: flex;
-  Flex-flow: Column nowrap;
-  justify-content: flex-start;
-  align-items: center;
+  padding: 20px 20px;
+ position: inline-block;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+grid-gap: 1em;
+grid-auto-flow: dense;
 }
 
 .Five h2{
