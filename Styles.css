@@ -300,10 +300,10 @@ position: relative;
 
 .Four p{
 display: flex;
-flex-direction:column;
+flex-flow:column nowrap;
 justify-content: flex-start;
 align-items: flex-start;
-flex-wrap: nowrap;
+flex: none;
 order: 3;
 position: relative;
   font-style: oblique;
