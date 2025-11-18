@@ -264,10 +264,12 @@ column-gap: 30px
 }
 .Four{
   background-color: #795656;
-  display:Flex;
+ position: relative;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  margin-top: 120px;
 
 }
 
@@ -277,7 +279,6 @@ column-gap: 30px
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-top: 120px;
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
