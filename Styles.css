@@ -279,41 +279,121 @@ column-gap: 30px
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  order: 1; 
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 2em;
 }
 .Four h4{
+display: flex;
+flex-direction:column;
+justify-content: flex-start;
+align-items: flex-start;
+order: 2;
+position: relative;
+  font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1em;
+}
 
+.Four p{
+display: flex;
+flex-direction:column;
+justify-content: flex-start;
+align-items: flex-start;
+order: 3;
+position: relative;
+  font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 .Four img {
-
+display: flex;
+flex-direction:column;
+justify-content: flex-start;
+align-items: flex-start;
+order: 4;
+position: relative;
 }
 
 .Four a {
-
+display: flex;
+flex-direction:column;
+justify-content: flex-start;
+align-items: flex-start;
+order: 5;
+position: relative;
 }
 
 .Five{
-
+  background-color: #795656;
+ position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
 }
 
 .Five h2{
-  
+    position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  order: 1; 
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2em;
 }
 
 .Five h4{
-  
+  display: flex;
+flex-direction:column;
+justify-content: flex-start;
+align-items: flex-start;
+order: 2;
+position: relative;
+  font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.Five p {
+display: flex;
+flex-direction:column;
+justify-content: flex-start;
+align-items: flex-start;
+order: 3;
+position: relative;
+  font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 .Five img {
-  
+  display: flex;
+flex-direction:column;
+justify-content: flex-start;
+align-items: flex-start;
+order: 4;
+position: relative;
 }
 
 .Five a {
-  
+  display: flex;
+flex-direction:column;
+justify-content: flex-start;
+align-items: flex-start;
+order: 5;
+position: relative;
 }
 
 footer {
