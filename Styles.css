@@ -337,10 +337,10 @@ position: relative;
 
 .Five{
   background-color: #795656;
- position: relative;
+ position: inline-block;
   display: flex;
   Flex-flow: Column nowrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -349,7 +349,7 @@ position: relative;
   display: flex;
   flex-flow:column nowrap;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   order: 1; 
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
@@ -361,7 +361,7 @@ position: relative;
   display: flex;
 flex-flow:column nowrap;
 justify-content: flex-start;
-align-items: flex-start;
+align-items: center;
 order: 2;
 position: relative;
 width: 20%;
@@ -376,7 +376,7 @@ margin-right: 20px;
 display: flex;
 flex-flow:column nowrap;
 justify-content: flex-start;
-align-items: flex-start;
+align-items: center;
 order: 3;
 position: relative;
 width: 20%;
@@ -391,7 +391,7 @@ margin-right: 20px;
   display: flex;
 flex-flow:column nowrap;
 justify-content: flex-start;
-align-items: flex-start;
+align-items: center;
 order: 4;
 position: relative;
 }
@@ -400,7 +400,7 @@ position: relative;
   display: flex;
 flex-flow:column nowrap;
 justify-content: flex-start;
-align-items: flex-start;
+align-items: center;
 order: 5;
 position: relative;
 }
