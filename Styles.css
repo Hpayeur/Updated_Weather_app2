@@ -276,7 +276,7 @@ column-gap: 30px
 .Four h2{
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-flow: column nowrap;
   justify-content: flex-start;
   align-items: flex-start;
   order: 1; 
@@ -303,6 +303,7 @@ display: flex;
 flex-direction:column;
 justify-content: flex-start;
 align-items: flex-start;
+flex-wrap: nowrap;
 order: 3;
 position: relative;
   font-style: oblique;
@@ -333,10 +334,9 @@ position: relative;
   background-color: #795656;
  position: relative;
   display: flex;
-  flex-direction: column;
+  Flex-flow: Column nowrap;
   justify-content: center;
   align-items: center;
-  margin-top: 120px;
 }
 
 .Five h2{
