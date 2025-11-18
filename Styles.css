@@ -276,25 +276,12 @@ margin-top: 120px
 
 .Four h2{
   position: relative;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  order: 1; 
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 2em;
 }
 .Four h4{
-display: flex;
-flex-flow:column nowrap;
-justify-content: flex-start;
-align-items: flex-start;
-order: 2;
-position: relative;
-width: 20%;
-margin-right: 20px;
   font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -302,15 +289,6 @@ margin-right: 20px;
 }
 
 .Four p{
-display: flex;
-flex-flow:column nowrap;
-justify-content: flex-start;
-align-items: flex-start;
-flex: none;
-order: 3;
-position: relative;
-width: 20%;
-margin-right: 20px;
   font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -327,11 +305,6 @@ position: relative;
 }
 
 .Four a {
-display: flex;
-flex-flow:column nowrap;
-justify-content: flex-start;
-align-items: flex-start;
-order: 5;
 position: relative;
 }
 
@@ -347,12 +320,6 @@ grid-auto-flow: dense;
 }
 
 .Five h2{
-    position: relative;
-  display: flex;
-  flex-flow:column nowrap;
-  justify-content: flex-start;
-  align-items: center;
-  order: 1; 
     font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -360,14 +327,6 @@ grid-auto-flow: dense;
 }
 
 .Five h4{
-  display: flex;
-flex-flow:column nowrap;
-justify-content: flex-start;
-align-items: center;
-order: 2;
-position: relative;
-width: 20%;
-margin-right: 20px;
   font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -375,14 +334,6 @@ margin-right: 20px;
 }
 
 .Five p {
-display: flex;
-flex-flow:column nowrap;
-justify-content: flex-start;
-align-items: center;
-order: 3;
-position: relative;
-width: 20%;
-margin-right: 20px;
   font-style: oblique;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -390,20 +341,10 @@ margin-right: 20px;
 }
 
 .Five img {
-  display: flex;
-flex-flow:column nowrap;
-justify-content: flex-start;
-align-items: center;
-order: 4;
 position: relative;
 }
 
 .Five a {
-  display: flex;
-flex-flow:column nowrap;
-justify-content: flex-start;
-align-items: center;
-order: 5;
 position: relative;
 }
 
