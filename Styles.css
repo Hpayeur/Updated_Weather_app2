@@ -60,6 +60,16 @@ background:#503434;
 text-decoration: none;
 }
 
+main p{
+  position: relative;
+    background-color: #795656;
+  margin: 50px 50px 50px 50px;
+  padding: 100px  100px 100px 100px;
+font-style: oblique;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1.3em;
+}
+
 .Colored-Box {
   background-color: #664343;
   border: 1px;
