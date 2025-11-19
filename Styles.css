@@ -168,12 +168,12 @@ main{
   }
 
   #weather-data img {
-    max-width: 250px;           
+    /* max-width: 250px;           
     height: 160px;
     display: block;
     padding: 10px;
     margin-top: -50px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; */
   }
 
   #weather-data ul {
@@ -262,142 +262,7 @@ column-gap: 30px
     font-size: 1.2em;
     font-weight: bold;
 }
-.Four{
-  background-color: #795656;
-  padding: 20px 20px;
- position: inline-block;
-display: grid;
-justify-content: space-evenly;
-align-content: flex-start;
-width: 20%;
-margin: right 20px;
-margin-top: 120px
 
-}
-
-.Four h2{
-  position: relative;
-  display: grid;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-order: 1;
-    font-style: oblique;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 2em;
-}
-.Four h4{
-  font-style: oblique;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 1em;
-    order:4;
-}
-
-.Four p{
-  font-style: oblique;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 1em;
-    order: 5;
-}
-
-.Four img {
-  display:flex;
-  margin: 0 auto;
-  flex-direction:row;
-  justify-content: center;
-  align-items: center;
-   padding-right: 15px;
-  padding-left: 15px;
-order: 2;
-position: relative;
- width: 250px;
-  height: 150px;
-}
-
-.Four a {
-    display: flex;
-flex-flow:column nowrap;
-justify-content: center;
-align-items: center;
-position: relative;
-order:3;
-}
-
-.Five{
-  background-color: #795656;
-  padding: 20px 20px;
- position: inline-block;
-display: grid;
-justify-content: space-evenly;
-align-content: center;
-width: 20%;
-margin: right 20px;
-}
-
-.Five h2{
-  display: flex;
-flex-flow:column nowrap;
-justify-content: center;
-align-items: center;
-order: 1;
-position: relative;
-    font-style: oblique;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 2em;
-}
-
-.Five h4{
-  display: flex;
-flex-flow:column nowrap;
-justify-content: center;
-align-items: center;
-order: 3;
-position: relative;
-  font-style: oblique;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 1em;
-}
-
-.Five p {
-  display: flex;
-flex-flow:column nowrap;
-justify-content: center;
-align-items: center;
-order: 4;
-position: relative;
-  font-style: oblique;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 1em;
-}
-
-.Five img {
-  display:flex;
-  margin: 0 auto;
-  flex-direction:row;
-  justify-content: center;
-  align-items: center;
-   padding-right: 15px;
-  padding-left: 15px;
-  width: 250px;
-  height: 150px;
-order: 1;
-position: relative;
-}
-
-.Five a {
-  display: flex;
-flex-flow:column nowrap;
-justify-content: center;
-align-items: center;
-order: 2;
-position: relative;
-}
 
 footer {
     position: fixed;
