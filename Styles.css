@@ -304,15 +304,24 @@ order: 1;
 }
 
 .Four img {
-display: flex;
-flex-flow:column nowrap;
-justify-content: flex-start;
-align-items: flex-start;
+  display:flex;
+  margin: 0 auto;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+   padding-right: 15px;
+  padding-left: 15px;
 order: 2;
 position: relative;
+ width: 250px;
+  height: 150px;
 }
 
 .Four a {
+    display: flex;
+flex-flow:column nowrap;
+justify-content: center;
+align-items: center;
 position: relative;
 order:3;
 }
@@ -368,10 +377,15 @@ position: relative;
 }
 
 .Five img {
-  display: flex;
-flex-flow:column nowrap;
-justify-content: center;
-align-items: center;
+  display:flex;
+  margin: 0 auto;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+   padding-right: 15px;
+  padding-left: 15px;
+  width: 250px;
+  height: 150px;
 order: 1;
 position: relative;
 }
