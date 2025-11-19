@@ -245,7 +245,7 @@ column-gap: 30px
 
 .Stories{
   background-color: #795656;
-  margin: 5px 10px 15px 10px;
+  margin: 10px 900px 15px 20px;
 }
 
 .Stories h2{
@@ -261,13 +261,7 @@ column-gap: 30px
 }
 
 .Stories h4 {
-  order: 3;
   position: relative;
-display: grid;
-grid-template-columns: none;
-justify-content: flex-start;
-align-items: flex-start;
-width:20%;
   font-style: oblique;
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.1em;
@@ -275,49 +269,63 @@ width:20%;
 }
 
 .Stories p{
-order:4;
 position: relative;
-display:grid;
-grid-template-columns: none;
-justify-content: flex-start;
-align-items: flex-start;
-width: 20%;
 font-style: oblique;
   font-family:'Times New Roman', Times, serif;
   font-size: 1em;
 }
 
 .Stories img{
-order: 1;
 position: relative;
-display: grid;
-grid-template-columns: none;
-justify-content: flex-start;
-align-items: flex-start;
 }
 
 .Stories a{
-order: 2;
 position: relative;
+}
+
+#WeatherTale1 h4{
+order: 3;
 display: grid;
 grid-template-columns: none;
 justify-content: flex-start;
-align-items: flex-start;
+align-items: center;
+width:50%;
+}
+
+#WeatherTale1 img{
+  order: 1;
+display: grid;
+grid-template-columns: none;
+justify-content: flex-start;
+align-items: center;
+width: 40%;
+}
+
+#WeatherTale1 p{
+  order: 4;
+display: grid;
+grid-template-columns: none;
+justify-content: flex-start;
+align-items: center;
+width:50%;
+}
+
+#WeatherTale1 a{
+  order: 2;
+display: grid;
+grid-template-columns: none;
+justify-content: flex-start;
+align-items: center;
+width:50%;
 }
 
 .Stories2{
   background-color: #795656;
-  margin: 5px 10px 15px 10px;
+  margin: 10px 900px 15px 20px;
 }
 
-.Stories2 h4{
-  order: 3;
+.Stories2 h4 {
   position: relative;
-display: grid;
-grid-template-columns: none;
-justify-content: center;
-align-items: center;
-width:20%;
   font-style: oblique;
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.1em;
@@ -325,34 +333,54 @@ width:20%;
 }
 
 .Stories2 p{
-order:4;
 position: relative;
-display:grid;
-grid-template-columns: none;
-justify-content: center;
-align-items: center;
-width: 20%;
 font-style: oblique;
   font-family:'Times New Roman', Times, serif;
   font-size: 1em;
 }
 
 .Stories2 img{
-order: 1;
 position: relative;
-display: grid;
-grid-template-columns: none;
-justify-content: center;
-align-items: center;
 }
 
 .Stories2 a{
- order: 2;
 position: relative;
+}
+
+#WeatherTale2 h4{
+order: 3;
 display: grid;
 grid-template-columns: none;
-justify-content: center;
+justify-content: flex-start;
 align-items: center;
+width:50%;
+}
+
+#WeatherTale2 img{
+  order: 1;
+display: grid;
+grid-template-columns: none;
+justify-content: flex-start;
+align-items: center;
+width:40%;
+}
+
+#WeatherTale2 p{
+  order: 4;
+display: grid;
+grid-template-columns: none;
+justify-content: flex-start;
+align-items: center;
+width:50%;
+}
+
+#WeatherTale2 a{
+  order: 2;
+display: grid;
+grid-template-columns: none;
+justify-content: flex-start;
+align-items: center;
+width:50%;
 }
 
 footer {
