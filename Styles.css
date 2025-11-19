@@ -261,44 +261,99 @@ column-gap: 30px
 }
 
 .Stories h4 {
-display: flex;
-flex-flow:column nowrap;
+  order: 3;
+  position: relative;
+display: grid;
+grid-template-columns: none;
+justify-content: flex-start;
 align-items: flex-start;
-order: 2;
-    font-style: oblique;
+width:20%;
+  font-style: oblique;
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.1em;
   font-weight: light;
-width: 20%;
 }
 
 .Stories p{
-display: flex;
-flex-flow: column nowrap;
+order:4;
+position: relative;
+display:grid;
+grid-template-columns: none;
+justify-content: flex-start;
 align-items: flex-start;
-order: 3;
+width: 20%;
 font-style: oblique;
-font-family:'Times New Roman', Times, serif;
-font-size: 1em;
-width: 25%;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1em;
 }
 
 .Stories img{
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  text-align: flex-start;
-  order: -1;
+order: 1;
+position: relative;
+display: grid;
+grid-template-columns: none;
+justify-content: flex-start;
+align-items: flex-start;
 }
 
 .Stories a{
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  text-align: flex-start;
-  order: 1;
+order: 2;
+position: relative;
+display: grid;
+grid-template-columns: none;
+justify-content: flex-start;
+align-items: flex-start;
 }
 
+.Stories2{
+  background-color: #795656;
+  margin: 5px 10px 15px 10px;
+}
+
+.Stories2 h4{
+  order: 3;
+  position: relative;
+display: grid;
+grid-template-columns: none;
+justify-content: center;
+align-items: center;
+width:20%;
+  font-style: oblique;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1em;
+  font-weight: light;
+}
+
+.Stories2 p{
+order:4;
+position: relative;
+display:grid;
+grid-template-columns: none;
+justify-content: center;
+align-items: center;
+width: 20%;
+font-style: oblique;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1em;
+}
+
+.Stories2 img{
+order: 1;
+position: relative;
+display: grid;
+grid-template-columns: none;
+justify-content: center;
+align-items: center;
+}
+
+.Stories2 a{
+ order: 2;
+position: relative;
+display: grid;
+grid-template-columns: none;
+justify-content: center;
+align-items: center;
+}
 
 footer {
     position: fixed;
